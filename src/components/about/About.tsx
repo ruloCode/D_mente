@@ -3,14 +3,26 @@ import Image from "next/image";
 
 const About = () => {
   return (
-    <section className="w-full py-12 md:py-24 lg:py-32">
-      <div className="container grid gap-6 px-4 md:px-6 lg:grid-cols-3 lg:gap-10">
+    <section className="py-12 md:py-24 lg:py-24 px-4
+  lg:px-24
+    
+    ">
+      <div className="border-b border-white pb-8 mb-12">
+        <h2 className="text-2xl font-bold uppercase tracking-widest mb-2">
+          Lo que hacemos
+        </h2>
+        <h3 className="text-xl font-semibold">
+          Somos la guia de crecimiento para tus proyectos
+        </h3>
+      </div>
+
+      <div className="container grid gap-6  md:px-6 lg:grid-cols-3 lg:gap-10">
         <div className="flex flex-col items-center space-y-4 text-center">
           <Image
             alt="Image"
             className="aspect-content overflow-hidden rounded-lg object-cover object-center"
             height={200}
-            src="/placeholder.png"
+            src="/website.jpg"
             width={200}
           />
           <h2 className="text-xl font-bold tracking-tighter sm:text-2xl md:text-3xl">
@@ -25,7 +37,7 @@ const About = () => {
             alt="Image"
             className="aspect-content overflow-hidden rounded-lg object-cover object-center"
             height={200}
-            src="/placeholder.png"
+            src="/design.jpg"
             width={200}
           />
           <h2 className="text-xl font-bold tracking-tighter sm:text-2xl md:text-3xl">
@@ -40,7 +52,7 @@ const About = () => {
             alt="Image"
             className="aspect-content overflow-hidden rounded-lg object-cover object-center"
             height={200}
-            src="/placeholder.png"
+            src="/marketing.jpg"
             width={200}
           />
           <h2 className="text-xl font-bold tracking-tighter sm:text-2xl md:text-3xl">
