@@ -22,8 +22,14 @@ const Header = () => {
           <i className="fab fa-youtube"></i>
         </a>
 
-
-        <button className="button button--secondary ">Contacto</button>
+        <a
+          href="https://wa.me/573202696826?text=Estoy%20interesado,%20me%20podr%C3%ADan%20dar%20más%20información"
+          rel="noopener noreferrer"
+          className="button button--secondary "
+          target="_blank"
+        >
+          Contacto
+        </a>
       </div>
     </header>
   );
